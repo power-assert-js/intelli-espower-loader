@@ -47,7 +47,7 @@ npm install power-assert --save-dev
 }
 ```
 
-### run mocha with `intelli-espower-loader`
+### Run mocha with `intelli-espower-loader`
 
 ``` sh
 mocha --require intelli-espower-loader
