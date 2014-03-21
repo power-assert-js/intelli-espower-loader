@@ -5,7 +5,7 @@
   "repository": {
     "url": "git://github.com/azu/intelli-espower-loader.git"
   },
-  "main": "lib/intelli-espower-loader.js",
+  "main": "intelli-espower-loader.js",
   "scripts": {
     "test": "mocha test/*.js"
   },
@@ -18,7 +18,6 @@
     "url": "https://github.com/azu/intelli-espower-loader/issues"
   },
   "dependencies": {
-    "espower-loader": "~0.3.1",
-    "packpath": "~0.1.0"
+    "espower-loader": "~0.3.1"
   }
 }
