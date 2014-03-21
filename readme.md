@@ -8,6 +8,12 @@ Handy node module for [power-assert](https://github.com/twada/power-assert "powe
 npm install intelli-espower-loader --save-dev
 ```
 
+You should also install [power-assert](https://github.com/twada/power-assert "power-assert").
+
+```sh
+npm install power-assert --save-dev 
+```
+
 ## Usage
 
 1. You have to set test directory to your `package.json`
