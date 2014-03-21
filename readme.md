@@ -30,8 +30,7 @@ npm install intelli-espower-loader --save-dev
     "author": "azu",
     "license": "MIT",
     "dependencies": {
-        "espower-loader": "~0.3.1",
-        "packpath": "~0.1.0"
+        "espower-loader": "~0.3.1"
     }
 }
 ```
