@@ -45,7 +45,7 @@ npm install intelli-espower-loader --save-dev
 ### run mocha with `intelli-espower-loader`
 
 ``` sh
-mocah --require intelli-espower-loader
+mocha --require intelli-espower-loader
 ```
 
 Run Test with [power-assert](https://github.com/twada/power-assert "power-assert") on the fly!!
