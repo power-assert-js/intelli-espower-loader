@@ -27,5 +27,5 @@ assert.equal(typeof directories.test, "string", 'You should setting `directories
 var testDirectory = directories.test;
 require('espower-loader')({
     cwd: process.cwd(),
-    pattern: testDirectory + "**/*.js"
+    pattern: testDirectory + "**" + pather.sep + "*.js"
 });
