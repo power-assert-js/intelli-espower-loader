@@ -20,24 +20,14 @@ npm install power-assert --save-dev
 
 ``` json
 {
-    "name": "intelli-espower-loader",
-    "description": "Make espower-lodaer config file unnecessary.",
+    "name": "your-module",
+    "description": "Your module",
     "version": "0.0.1",
-    "repository": {
-        "url": "git://github.com/azu/intelli-espower-loader.git"
-    },
-    "main": "lib/intelli-espower-loader.js",
-    "scripts": {
-        "test": "mocha test/*.js"
-    },
     "directories": {
         "test": "test/"
     },
-    "author": "azu",
     "license": "MIT",
-    "dependencies": {
-        "espower-loader": "~0.3.1"
-    }
+...
 }
 ```
 
