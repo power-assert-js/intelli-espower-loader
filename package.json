@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/azu/intelli-espower-loader/issues"
   },
-  "dependencies": {
-    "espower-loader": "~0.6.0"
+  "peerDependencies": {
+    "espower-loader": "~0.7.0"
   }
 }
