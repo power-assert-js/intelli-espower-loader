@@ -1,7 +1,8 @@
 "use strict";
-var assert = require("assert");
 var fs = require("fs");
+var assert = require("assert");
 var pather = require("path");
+var normalizeDir = require("./lib/normalize-dir");
 var packageName = require("./package.json").name;
 
 function findPackageDir(paths) {
@@ -21,11 +22,15 @@ function getPackageJSON() {
     assert(dir, "package.json is not found");
     return require(pather.resolve(dir, "package.json"));
 }
-var directories = getPackageJSON().directories;
-assert.equal(typeof directories, "object", 'You should setting `directories : { test : "test/" }`');
-assert.equal(typeof directories.test, "string", 'You should setting `directories : { test : "test/" }`');
-var testDirectory = directories.test;
+function getTestDirFromPkg(pkg) {
+    var directories = pkg.directories;
+    assert.equal(typeof directories, "object", 'You should setting `directories : { test : "test/" }`');
+    assert.equal(typeof directories.test, "string", 'You should setting `directories : { test : "test/" }`');
+    return directories.test;
+}
+var pkg = getPackageJSON();
+var testDirectory = getTestDirFromPkg(pkg);
 require('espower-loader')({
     cwd: process.cwd(),
-    pattern: testDirectory + ((testDirectory.lastIndexOf(pather.sep, 0) === 0) ? '' : pather.sep) + "**" + pather.sep + "*.js"
+    pattern: normalizeDir(testDirectory) + "**" + pather.sep + "*.js"
 });
