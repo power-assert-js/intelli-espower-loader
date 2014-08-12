@@ -18,9 +18,9 @@
     "url": "https://github.com/azu/intelli-espower-loader/issues"
   },
   "peerDependencies": {
-    "espower-loader": "~0.7.0"
+    "espower-loader": "^0.8.0"
   },
   "devDependencies": {
-    "mocha": "^1.20.1"
+    "mocha": "^1.21.4"
   }
 }
