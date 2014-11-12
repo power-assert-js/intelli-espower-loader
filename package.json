@@ -1,7 +1,7 @@
 {
   "name": "intelli-espower-loader",
   "description": "Make espower-lodaer config file unnecessary.",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "repository": {
     "url": "git://github.com/azu/intelli-espower-loader.git"
   },
