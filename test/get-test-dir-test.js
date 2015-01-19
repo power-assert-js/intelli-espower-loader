@@ -3,7 +3,7 @@
 var assert = require("assert");
 var getTestDir = require("../lib/get-test-dir");
 describe("get-test-dir-test", function () {
-    context("When package.json does not have directories properties", function () {
+    context("when package.json does not have directories properties", function () {
         it("should return directories properties", function () {
             var packageJsonMock = {};
             var expected = "test/";
