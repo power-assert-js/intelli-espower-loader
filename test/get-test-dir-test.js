@@ -12,7 +12,7 @@ describe("get-test-dir-test", function () {
         });
     });
     context("when `pkg.directories.test` is set", function () {
-        it("should return 'test/'", function () {
+        it("should return 'user-dir/'", function () {
             var dir = getTestDir({
                 "directories": {
                     "test": "user-dir"
