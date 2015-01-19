@@ -16,7 +16,7 @@ npm install power-assert --save-dev
 
 ## Usage
 
-1. You have to set test directory to your `package.json`
+### 1. (Optional) You have to set test directory to your `package.json`
 
 ``` json
 {
@@ -37,7 +37,9 @@ npm install power-assert --save-dev
 }
 ```
 
-### Run mocha with `intelli-espower-loader`
+If you didn't set directories.test, use 'test/' as default value.
+
+### 2. Run mocha with `intelli-espower-loader`
 
 ``` sh
 mocha --require intelli-espower-loader
