@@ -3,12 +3,20 @@
 var assert = require("assert");
 var getTestDir = require("../lib/get-test-dir");
 describe("get-test-dir-test", function () {
+    context("When package.json does not have directories properties", function () {
+        it("should return directories properties", function () {
+            var packageJsonMock = {};
+            var expected = "test/";
+            assert.equal(getTestDir(packageJsonMock), expected);
+        });
+    });
     context("when `pkg.directories.test` is not found", function () {
         it("should return 'test/'", function () {
             var dir = getTestDir({
                 "directories": {}
             });
-            assert.equal(dir, "test/");
+            var expected = "test/";
+            assert.equal(dir, expected);
         });
     });
     context("when `pkg.directories.test` is set", function () {
@@ -18,7 +26,9 @@ describe("get-test-dir-test", function () {
                     "test": "user-dir"
                 }
             });
-            assert.equal(dir, "user-dir/");
+            var expected = "user-dir/";
+            assert.equal(dir, expected);
         });
     });
+
 });
