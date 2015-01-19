@@ -37,7 +37,7 @@ npm install power-assert --save-dev
 }
 ```
 
-If you didn't set directories.test, use 'test/' as default value.
+If you didn't set directories.test, use `"test/"` as default value.
 
 ### 2. Run mocha with `intelli-espower-loader`
 
