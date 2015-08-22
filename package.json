@@ -7,7 +7,7 @@
   },
   "main": "intelli-espower-loader.js",
   "scripts": {
-    "test": "mocha test/*.js"
+    "test": "mocha test/*.js && (cd example && npm run travis-test)"
   },
   "directories": {
     "test": "test/"

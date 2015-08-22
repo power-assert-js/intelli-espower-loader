@@ -16,6 +16,8 @@ npm install power-assert --save-dev
 
 ## Usage
 
+See [example/](example/)
+
 ### 1. (Optional) You have to set test directory to your `package.json`
 
 ``` json
