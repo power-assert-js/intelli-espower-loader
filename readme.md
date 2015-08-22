@@ -1,4 +1,4 @@
-# intelli-espower-loader [![Build Status](https://travis-ci.org/azu/intelli-espower-loader.svg)](https://travis-ci.org/azu/intelli-espower-loader)
+# intelli-espower-loader [![Build Status](https://travis-ci.org/power-assert-js/intelli-espower-loader.svg?branch=master)](https://travis-ci.org/power-assert-js/intelli-espower-loader)
 
 Handy node module for [power-assert](https://github.com/twada/power-assert "power-assert") and [espower-loader](https://github.com/twada/espower-loader " espower-loader").
 
