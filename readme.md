@@ -18,7 +18,12 @@ npm install power-assert --save-dev
 
 See [example/](example/)
 
-### 1. (Optional) You have to set test directory to your `package.json`
+### 1. Put test script in test folder
+The default folder is `"test/"`. You must put your test script in this folder. 
+
+**If you don't put your test code in the right folder, intelli-espower-loader will work incorrectly.**
+
+You can change test folder setting in your `package.json`
 
 ``` json
 {
@@ -38,8 +43,6 @@ See [example/](example/)
     "test": "test/"
 }
 ```
-
-If you didn't set directories.test, use `"test/"` as default value.
 
 ### 2. Run mocha with `intelli-espower-loader`
 
