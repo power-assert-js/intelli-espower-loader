@@ -1,6 +1,6 @@
 // LICENSE : MIT
 "use strict";
-var assert = require("power-assert");
+var assert = require("assert");
 describe("PassTest", function () {
     it("is passed", function () {
         var object = {
