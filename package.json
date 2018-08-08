@@ -21,6 +21,6 @@
     "espower-loader": "^1.0.0"
   },
   "devDependencies": {
-    "mocha": "^3.0.0"
+    "mocha": "^5.2.0"
   }
 }
