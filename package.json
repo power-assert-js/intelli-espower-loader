@@ -9,6 +9,14 @@
   "scripts": {
     "test": "mocha test/*.js && (cd example && npm run ci-test)"
   },
+  "files": [
+    "CHANGELOG.md",
+    "LICENSE",
+    "intelli-espower-loader.js",
+    "lib",
+    "package.json",
+    "readme.md"
+  ],
   "directories": {
     "test": "test/"
   },
