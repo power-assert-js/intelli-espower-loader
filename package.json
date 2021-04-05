@@ -1,7 +1,7 @@
 {
   "name": "intelli-espower-loader",
   "description": "Make espower-lodaer config file unnecessary.",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "repository": {
     "url": "git://github.com/power-assert-js/intelli-espower-loader.git"
   },
