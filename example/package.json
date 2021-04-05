@@ -6,7 +6,7 @@
   "scripts": {
     "postinstall": "npm pack .. | xargs npm install --no-save",
     "test": "mocha",
-    "travis-test": "npm i && mocha test/pass-test.js"
+    "ci-test": "npm i && mocha test/pass-test.js"
   },
   "directories": {
     "test": "test/"
@@ -15,7 +15,7 @@
   "license": "MIT",
   "devDependencies": {
     "espower-loader": "^1.0.0",
-    "mocha": "^3.0.0",
+    "mocha": "^8.0.0",
     "power-assert": "^1.0.0"
   }
 }
