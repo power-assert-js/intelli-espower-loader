@@ -1,6 +1,6 @@
 # intelli-espower-loader [![Build Status][ci-image]][ci-url]
 
-Handy node module for [power-assert](https://github.com/twada/power-assert "power-assert") and [espower-loader](https://github.com/twada/espower-loader " espower-loader").
+Handy node module for [power-assert](https://github.com/power-assert-js/power-assert "power-assert") and [espower-loader](https://github.com/power-assert-js/espower-loader " espower-loader").
 
 ## Installation
 
@@ -8,7 +8,7 @@ Handy node module for [power-assert](https://github.com/twada/power-assert "powe
 npm install intelli-espower-loader --save-dev
 ```
 
-You should also install [power-assert](https://github.com/twada/power-assert "power-assert").
+You should also install [power-assert](https://github.com/power-assert-js/power-assert "power-assert").
 
 ```sh
 npm install power-assert --save-dev 
@@ -50,7 +50,7 @@ You can change test folder setting in your `package.json`
 mocha --require intelli-espower-loader
 ```
 
-Run Test with [power-assert](https://github.com/twada/power-assert "power-assert") on the fly!!
+Run Test with [power-assert](https://github.com/power-assert-js/power-assert "power-assert") on the fly!!
 
 ![mocha](https://monosnap.com/image/GNvwDvnwXuUSvaGGZotBOeXwBATEfR.png)
 
