@@ -1,4 +1,4 @@
-# intelli-espower-loader [![Build Status](https://travis-ci.org/power-assert-js/intelli-espower-loader.svg?branch=master)](https://travis-ci.org/power-assert-js/intelli-espower-loader)
+# intelli-espower-loader [![Build Status][ci-image]][ci-url]
 
 Handy node module for [power-assert](https://github.com/twada/power-assert "power-assert") and [espower-loader](https://github.com/twada/espower-loader " espower-loader").
 
@@ -68,3 +68,6 @@ Run Test with [power-assert](https://github.com/twada/power-assert "power-assert
 ## License
 
 MIT
+
+[ci-image]: https://github.com/power-assert-js/intelli-espower-loader/workflows/Node.js%20CI/badge.svg
+[ci-url]: https://github.com/power-assert-js/intelli-espower-loader/actions?query=workflow%3A%22Node.js+CI%22
